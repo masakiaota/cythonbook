@@ -2,3 +2,5 @@ __pycache__
 build
 *.so
 .ipynb_checkpoints
+*.c
+*.pyc
