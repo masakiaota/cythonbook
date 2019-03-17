@@ -6,8 +6,10 @@ def dummy_func():
     j = 0
     i = j
     k = 12.0
-    j = 2 * k
+#     print("i:{}, j:{}, k:{}".format(type(i), type(j), type(k)))
+    j = 2 * k #floatをintに代入しようとしているからエラーが出る
     assert i != j
+#     print("i:{}, j:{}, k:{}".format(type(i), type(j), type(k)))
 
 def several_at_once():
     cdef int i, j, k
